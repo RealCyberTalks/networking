@@ -60,12 +60,11 @@ After that the computers has been connected with a Switch, a problem remains. Fo
 
   ![This is the switch picture](arpsent.png)
 
-  <strong>
-  <ul>
-    <h5>Hello</h5>
-    <h5>Hello</h5>
-  </ul>
-  </strong>
+  <h5>Ethernet: The cable used to connect the computer and switch</h5>
+  <h5>00D0.9745.1420: This the source mac address, aka the sender's mac address, pc0</h5>
+  <h5>FFFF.FFFF.FFFF: This is the blank mac address holder for the destination's mac address, pc1's mac address</h5>
+  <h5>Src. ip: The ip address of the sender/pc1</h5>
+  <h5>Dest ip: Ip address of the destination/pc1, aka pc1's mac address</h5>
 
   ![This is the switch picture](firstscene.png)
 
