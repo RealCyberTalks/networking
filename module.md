@@ -108,9 +108,9 @@ After that the computers has been connected with a Switch, a problem remains. Fo
 
   <h4>This section is mostly about ip addresses, routers, transport protocols and packets.</h4>
 
-<li><strong>Ip address::</strong>
+  <li><strong>Ip address:</strong>
 
-  <strong>Think of it as a home address but for devices. You use ip addresses to send messages, receive messages, yet you can move to a different house, which is equivalent to a device switching networks and getting a new ip address, for example, when connecting to a restaurant free network.</strong> 
+  <strong>Think of it as a home address but for devices. You use ip addresses to send messages, receive messages, yet you can       move to a different house, which is equivalent to a device switching networks and getting a new ip address, for example, when    connecting to a restaurant free network.</strong> 
   </li>
   
   <ul>
