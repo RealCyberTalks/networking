@@ -1,1 +1,1 @@
-![Description of image](image.png)
+(image.png)
