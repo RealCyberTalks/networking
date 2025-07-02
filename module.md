@@ -56,7 +56,13 @@
 After that the computers has been connected with a Switch, a problem remains. For instance, pc0 doesn't know the mac address of pc1, which is neccessary for the communication, since Switches only understands layer 2, or in other words, switches can only transfer a message with mac addresses attached to the message.This is where ARP (address resolution protocol) messages comes into play. The ARP message is a message that a device sends to all devices in the network in order to find out what the real destination's mac address is. Lets make a scenario. "Pc0 wants to communicate with pc1": 
   </h4>
 
-  ![This is the switch picture](switch.png)
+  ![This is the switch picture](firstscene.png)
+
+  <h3>Pc0 pings pc1 with this command "ping 192.168.1.2"</h3>
+  <h4>🟩 Green message: The ARP message, this message contains the ip address of the destination/receiver, and finds out the mac           address of it</h4>
+  <h4>⬛ Black message: Actual ping request, this message contains the ip address of the sender and destination. But not the destination's mac address, that's the ARP's job</h4>
+
+  ![This is the switch picture](secondscene.png)
   
 </div>
   
