@@ -151,12 +151,26 @@ After that the computers has been connected with a Switch, a problem remains. Fo
    <ls>
       <li><strong>3 way handshake:</strong>
 
-  <strong>In order for you to visit a website, like youtube.com, you need to first communicate. So you open your browser and type the website. Secondly, behind the scenes, you send a message called "syn", which is a message that sees if the a website is up. When the message reaches for example youtube, then it will respond with a "syn ack" message saying "hello client, im online". Lastly when youtube sends the message back to you, you will respond with an "ack" message saying "okay we are good to go" .</strong>
+  <strong>In order for you to visit a website, like youtube.com, you need to first communicate. So you open your browser and type the website. Secondly, behind the scenes, you send a message called "syn", which is a message that sees if the a website is up. When the message reaches for example youtube, then it will respond with a "syn ack" message saying "hello client, im online". Lastly when youtube sends the message back to you, you will respond with an "ack" message saying "okay we are good to go". For more on this, check out this youtube video: https://www.youtube.com/shorts/3ZqmqNPHT40 .</strong> 
   </li>
    </ls>
   </ul>
 
-  [Watch the video](3wavehandshake.mp4)
+  <h2>------> Layer 6 <------</h2>
+
+  
+  <h4>This layer is called "presentation". This is a layer that gives you the gui (graphical user interface) and the things you see when entering a website. It is responisble for the data format and file types </h4>
+
+<ul>
+   <ls>
+      <li><strong>Data format & file type:</strong>
+
+  <strong>When you enter a website, you are mostly greeted with an .html file. This is a file that renders the website. From the background color, to all the text, font and so on. Most common data format/file types are .html, .js and .css.</strong> 
+  </li>
+  <li>.js: Java script. Used when you want to script a button or animations</li>
+  <li>.css: Its a programming language called "CSS". It is used to fade, shade, and make everthing seem much cleaner and better. </li>
+   </ls>
+  </ul>
   
 </div>
   
