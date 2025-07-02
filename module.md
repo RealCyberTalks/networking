@@ -120,9 +120,16 @@ After that the computers has been connected with a Switch, a problem remains. Fo
     
   </li>
 
-  <li><strong>When your router sends a message through the internet, it typically uses the TCP (transmission control protocol) or UDP (User Datagram Protocol). For now just know that TCP is more reliable, while UDP is faster.</strong> </li>
+  <li><strong>Transport protocols:</strong>
 
-  <li><strong>The messages that you are sending when working with layer 3 is called "packets", while for example in layer 2 they are called "frames". </strong> </li>
+  <strong>When your router sends a message through the internet, it typically uses the TCP (transmission control protocol) or UDP (User Datagram Protocol). For now just know that TCP is more reliable, while UDP is faster.</strong> 
+  
+  </li>
+
+  <li><strong>Packets:</strong>
+
+  <strong>The messages that you are sending when working with layer 3 is called "packets", while for example in layer 2 they are called "frames". </strong> 
+  </li>
   
 </ul>
 
