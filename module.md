@@ -98,11 +98,30 @@ After that the computers has been connected with a Switch, a problem remains. Fo
     
   </h4>
 
-  <h1>OSI model & TCP/IP model (layer 3-7)</h1>
+  <h1 align="center">OSI model & TCP/IP model (layer 3-7)</h1>
 
-  <h4>There are two main network structures. They are called the OSI model and TCP/IP model. The OSI model has 7 layers while TCP/IP combines the 5th, 6th, and 7th layer into one layer, which is equal to only 5 layers.</h4>
+  <h4 align="center">There are two main network structures. They are called the OSI model and TCP/IP model. The OSI model has 7 layers while TCP/IP combines the 5th, 6th, and 7th layer into one layer, which is equal to only 5 layers.</h4>
 
   ![This is the process picture](ositcp.png)
+
+  <h3>---> Layer3 <---</h3>
+
+  <h4>This section is mostly about ip addresses, routers, transport protocols and packets.</h4>
+
+  <ul>
+  <li><strong>Ip address:</strong> Think of it as a home address but for devices. You use ip addresses to send messages, receive messages, yet you can move to a different house, which is equivalent to a device switching networks and getting a new ip address, for example, when connecting to a restaurant free network.
+  </li>
+
+  <li><strong>Router:</strong>
+
+  Routers can forward a message using ip addresses. When a message reaches your local router from the inside or outside, it will do its things according to the configuration.
+
+  ![This is the process picture](router)
+    
+  </li>
+    
+</ul>
+
   
 </div>
   
