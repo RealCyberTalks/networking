@@ -60,6 +60,13 @@ After that the computers has been connected with a Switch, a problem remains. Fo
 
   ![This is the switch picture](arpsent.png)
 
+  <strong>
+  <ul>
+    <h5>Hello</h5>
+    <h5>Hello</h5>
+  </ul>
+  </strong>
+
   ![This is the switch picture](firstscene.png)
 
   <h3>Pc0 pings pc1 with this command "ping 192.168.1.2"</h3>
