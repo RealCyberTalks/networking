@@ -37,9 +37,9 @@
   <h1 align="center">Hubs and Switches</h1>
 
   <h4>In order for computers to talk to each other, they need a cable attached to their ends. But how would multiple computers talk to each other? Well now we talking Hubs. They allow multiple computers to talk and communicate, like this:
+
+![This is the hub picture](hub.png)
   
- ![My image](![image](https://github.com/user-attachments/assets/a6a947a9-555f-41b8-8ea4-cbfef08a1271)
-)
   </h4>
   
 </div>
