@@ -38,8 +38,8 @@
 
   <h4>In order for computers to talk to each other, they need a cable attached to their ends. But how would multiple computers talk to each other? Well now we talking Hubs. They allow multiple computers to talk and communicate, like this:
   
-  ![This is the ](image.png)
-  
+  ![This is the ](![Uploading image.png…]()
+)
   </h4>
   
 </div>
