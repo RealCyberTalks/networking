@@ -97,6 +97,12 @@ After that the computers has been connected with a Switch, a problem remains. Fo
   ![This is the process picture](ping.png)
     
   </h4>
+
+  <h1>OSI model & TCP/IP model (layer 3-7)</h1>
+
+  <h4>There are two main network structures. They are called the OSI model and TCP/IP model. The OSI model has 7 layers while TCP/IP combines the 5th, 6th, and 7th layer into one layer, which is equal to only 5 layers.</h4>
+
+  ![This is the process picture](ositcp.png)
   
 </div>
   
