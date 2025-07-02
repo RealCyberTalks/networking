@@ -153,7 +153,7 @@ After that the computers has been connected with a Switch, a problem remains. Fo
 
   <strong>In order for you to visit a website, like youtube.com, you need to first communicate. So you open your browser and type the website. Secondly, behind the scenes, you send a message called "syn", which is a message that sees if the a website is up. When the message reaches for example youtube, then it will respond with a "syn ack" message saying "hello client, im online". Lastly when youtube sends the message back to you, you will respond with an "ack" message saying "okay we are good to go". For more on this, check out this youtube video: https://www.youtube.com/shorts/3ZqmqNPHT40 .</strong> 
   
-  </li>
+  </ls>
   </ul>
   
 </div>
