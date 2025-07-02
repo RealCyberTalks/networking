@@ -12,6 +12,12 @@
       <li>3️⃣ This skill will make you be able to identify vulnerabilities in companies or in your own local network. This also makes you safe when defending yourself or your company</li>
     </ul>
   </strong>
+
+<strong>
+  <h1>
+    What you will learn in this module
+  </h1>
+</strong>
 </div>
 
 ![This is the ](image.png)
