@@ -27,6 +27,12 @@
     <li>5. What happens when you visit Youtube, explained with the TCP/IP model</li>
   </ul>
   </strong>
+
+
+<div>
+  <h1 align="center">Network</h1>
+  <h3>A network can come with various styles. As for instance, your local network surely have a router, and devices connected to it (like phones and tvs), thats your network, your local network. Not diving more into it, lets learn about networking</h3>
+</div>
   
 </strong>
 </div>
