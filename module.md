@@ -16,7 +16,7 @@
 <strong>
   <h1>
     What you will learn in this module
-  </h1>
+  </h3>
 </strong>
 </div>
 
