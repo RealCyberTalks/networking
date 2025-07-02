@@ -1,7 +1,7 @@
 <div>
-  <p align="center">
+  <h1 align="center">
     Welcome to the Networking Module!
-  </p>
+  </h1>
   <p align="center">
     Why learn networking?
   <strong>
