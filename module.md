@@ -31,7 +31,7 @@
 
 <div>
   <h1 align="center">Network</h1>
-  <h4>A network can come with various styles. As for instance, your local network surely have a router, and devices connected to it (like phones and tvs), thats your network, your local network. Not diving more into it, lets learn about networking
+  <h4>A network can come with various styles. As for instance, your local network surely have a router, and devices connected to it (like phones and tvs), thats your network, your local network. When we talk about layers, we mean the blocks that build up the function to communicate. More on that soon. Not diving more into it, lets learn about networking
   </h4>
 
   <h1 align="center">Hubs and Switches</h1>
