@@ -64,7 +64,20 @@ After that the computers has been connected with a Switch, a problem remains. Fo
 
   ![This is the switch picture](secondscene.png)
 
-  
+  <h4>
+    Both ARP (🟩 ) and the ping request (⬛) has reached the Switch. The Switch knows that this is an ARP message, and therefore duplicates it to the other devices:
+  </h4>
+  ![This is the switch picture](thirdscene.png)
+
+  <h4>
+    Since the ip address doesn't match for pc2, it will be destroyed. In the other hand, it matches the pc1's ip address, which       means the ARP request has been succesfully delivered. Now the last step is for pc1 do contact the original sender, pc0
+  </h4>
+
+  ![This is the switch picture](fourth.png)
+
+  <h4>
+    Now pc0 and pc1 knows each other very well, they are friends, which means they can communicate easily with no issues from now on
+  </h4>
   
 </div>
   
