@@ -41,6 +41,12 @@
 ![This is the hub picture](hub.png)
   
   </h4>
+
+  <h4>
+  But one problem with the Hub is that, whenever a ping request or message arrives to it, the message will duplicate itself to     other devices in that network, meaning, the Hub's only job is to duplicate traffic to all devices. To solve this, they made       Switches. Switches job is to hand the message over to the right destination without any trouble. This is how a small network      with a switch looks like
+  </h4>
+
+  ![This is the hub picture](switch.png)
   
 </div>
   
