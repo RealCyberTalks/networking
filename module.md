@@ -130,9 +130,9 @@ After that the computers has been connected with a Switch, a problem remains. Fo
   
 </ul>
 
-<h2>---> Layer4 <---</h2>
+<h2>----> Layer4 <----</h2>
 
-  <h3 align="center">This section is mostly about transport protocols</h3>
+  <h4 >This section is mostly about transport protocols</h4>
 
   <ul>
    <ls>
