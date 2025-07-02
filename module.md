@@ -81,6 +81,7 @@ After that the computers has been connected with a Switch, a problem remains. Fo
   </h4>
 
 ![This is the process picture](thirdscene.png)
+![This is the process picture](secondscene.png)
   
   <h4>
     Since the ip address doesn't match for pc2, it will be destroyed. In the other hand, it matches the pc1's ip address, which       means the ARP request has been succesfully delivered. Now the last step is for pc1 do contact the original sender, pc0
