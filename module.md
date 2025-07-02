@@ -46,7 +46,17 @@
   But one problem with the Hub is that, whenever a ping request or message arrives to it, the message will duplicate itself to     other devices in that network, meaning, the Hub's only job is to duplicate traffic to all devices. To solve this, they made       Switches. Switches job is to hand the message over to the right destination without any trouble. This is how a small network      with a switch looks like
   </h4>
 
-  ![This is the hub picture](switch.png)
+  ![This is the switch picture](switch.png)
+
+  <h1 align="center">Network layers (1-2)</h1>
+
+  <h4>
+    Layer 1: Hardware/Physical things, like cables
+Layer 2: Mac Address etc
+After that the computers has been connected with a Switch, a problem remains. For instance, pc0 doesn't know the mac address of pc1, which is neccessary for the communication, since Switches only understands layer 2, or in other words, switches can only transfer a message with mac addresses attached to the message.This is where ARP (address resolution protocol) messages comes into play. The ARP message is a message that a device sends to all devices in the network in order to find out what the real destination's mac address is. Lets make a scenario. "Pc0 wants to communicate with pc1": 
+  </h4>
+
+  ![This is the switch picture](switch.png)
   
 </div>
   
