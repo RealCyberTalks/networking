@@ -8,7 +8,7 @@
   <strong>
    <ul align="center">
       <li>1️⃣ In Cyber Security, there are many roles that involves networking</li>
-      <li>2️⃣ Generally in hacking, you need to learn how to move, configure and troubleshoot networking issues/errors</li>
+      <li>2️⃣ Generally in hacking, you need to learn how to move, configure and troubleshoot networking issues</li>
       <li>3️⃣ This skill will make you be able to identify vulnerabilities in companies or in your own local network. This also makes you safe when defending yourself or your company</li>
     </ul>
   </strong>
@@ -63,6 +63,8 @@ After that the computers has been connected with a Switch, a problem remains. Fo
   <h4>⬛ Black message: Actual ping request, this message contains the ip address of the sender and destination. But not the destination's mac address, that's the ARP's job</h4>
 
   ![This is the switch picture](secondscene.png)
+
+  
   
 </div>
   
