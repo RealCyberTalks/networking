@@ -31,10 +31,18 @@
 
 <div>
   <h1 align="center">Network</h1>
-  <h3>A network can come with various styles. As for instance, your local network surely have a router, and devices connected to it (like phones and tvs), thats your network, your local network. Not diving more into it, lets learn about networking</h3>
+  <h4>A network can come with various styles. As for instance, your local network surely have a router, and devices connected to it (like phones and tvs), thats your network, your local network. Not diving more into it, lets learn about networking
+  </h4>
+
+  <h1 align="center">Hubs and Switches</h1>
+
+  <h4>In order for computers to talk to each other, they need a cable attached to their ends. But how would multiple computers talk to each other? Well now we talking Hubs. They allow multiple computers to talk and communicate, like this:
+  
+  ![This is the ](image.png)
+  
+  </h4>
+  
 </div>
   
 </strong>
 </div>
-
-![This is the ](image.png)
