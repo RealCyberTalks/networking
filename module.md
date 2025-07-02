@@ -2,8 +2,9 @@
   <h1 align="center">
     Welcome to the Networking Module!
   </h1>
-  <p align="center">
+  <h3 align="center">
     Why learn networking?
+  <h3>
   <strong>
    <ul align="center">
       <li>1️⃣ In Cyber Security, there are many roles that involves networking</li>
@@ -11,8 +12,6 @@
       <li>3️⃣ This skill will make you be able to identify vulnerabilities in companies or in your own local network. This also makes you safe when defending yourself or your company</li>
     </ul>
   </strong>
-  </p>
-  
 </div>
 
 ![This is the ](image.png)
