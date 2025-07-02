@@ -14,9 +14,20 @@
   </strong>
 
 <strong>
-  <h1>
+  <h3>
     What you will learn in this module
   </h3>
+
+  <strong>
+  <ul>
+    <li>1. What is a network?</li>
+    <li>2. Hubs and Switches</li>
+    <li>3. Network layers (1-2) & ARP</li>
+    <li>4. Network layers (3-7) & OSI /TCP/IP model</li>
+    <li>5. What happens when you visit Youtube, explained with the TCP/IP model</li>
+  </ul>
+  </strong>
+  
 </strong>
 </div>
 
