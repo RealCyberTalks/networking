@@ -172,19 +172,24 @@ After that the computers has been connected with a Switch, a problem remains. Fo
    </ls>
   </ul>
 
-  <h2>------> Layer 6 <------</h2>
+  <h2>-------> Layer 7 <-------</h2>
 
-  <h4>This is the last layer, and its called</h4>
+  <h4>This is the last layer, and its called the "application" layer. This layer is mostly about the browser, protocols such as http and https</h4>
 
 <ul>
    <ls>
-      <li><strong>Data format & file type:</strong>
+      <li><strong>Browser, ports,  http, and https</strong>
 
-  <strong>When you enter a website, you are mostly greeted with an .html file. This is a file that renders the website. From the background color, to all the text, font and so on. Most common data format/file types are .html, .js and .css.</strong> 
+  <strong></strong> 
   </li>
-  <li>.js: Java script. Used when you want to script a button or animations</li>
-  <li>.css: Its a programming language called "CSS". It is used to fade, shade, and make everthing seem much cleaner and better. </li>
-   </ls>
+  <li>Browser: When you open your browser and type the website, in a way, you interact with the 7th layer. More of this under</li>
+  <li>Ports: A port is like a tunnel that allows connections. When you start your computer, by deafult you will create different ports so that your computer works properly. Ports allow connections, for example, when you visit youtube, there has to be a way for the flow of information to pass by, which is ports. They allow connections, and informations to pass in, and through it. Ports also have the so called "port number" which is like an ip address but for ports. Its a location for the port. For instance, if you want to connect to a port, you would specify the port number. 
+  </li>
+
+  <li>Http (Hypertext Transfer Protocol): This is a protocol that lets you connect to websites. To create a http connection, you will need a port. The port number for http is 80. Note that you can change the port number but thats the deafult</li>
+  <li>Https (Hypertext Transfer Protocol secure): Updates version of http and does the same job but more secure. It encrypts the traffic and overall more secure. The port number for https is 443. Note that you can change the port number but thats the deafult</li>
+  
+  </ls>
   </ul>
 
   
