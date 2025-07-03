@@ -154,7 +154,7 @@ After that the computers has been connected with a Switch, a problem remains. Fo
    <ls>
       <li><strong>Transport protocols:</strong>
 
-  <strong>When your router sends a message through the internet, it typically uses the TCP (transmission control protocol) or UDP (User Datagram Protocol). For now just know that TCP is more reliable, while UDP is faster.</strong> 
+  <strong>When your router sends a message through the internet, to for example enter a website, it typically uses the TCP (transmission control protocol) or UDP (User Datagram Protocol). For now just know that TCP is more reliable, while UDP is faster.</strong> 
   </li>
    </ls>
   </ul>
