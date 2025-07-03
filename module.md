@@ -58,7 +58,7 @@
   <ul>
    <ls>
   <li>Hardware: This is the physical things like the metal and components inside of your computer</li>
-  <li>Mac address: Fixed code on a device. Every device has a mac address. This is like an ip address, or home address. This code will almost never change,because it is like an identifier for the device. You could change the mac address thorugh a software </li>
+  <li>Mac address: Fixed code on a device. Every device has a mac address. This is like an ip address, or home address. This code will almost never change, because it is like an identifier for the device. You could change the mac address thorugh a software </li>
   </ls>
   </ul>
   
@@ -176,7 +176,7 @@ After that the computers has been connected with a Switch, a problem remains. Fo
 
   <h2>-----> Layer 5 <-----</h2>
 
-  <h4>The session layer is all about keeping the connection between you and the website you are trying to interact with.
+  <h4>The session layer is all about keeping the connection between you and the website you are trying to interact with. More of it soon
 </h4>
 
 <ul>
@@ -229,7 +229,7 @@ After that the computers has been connected with a Switch, a problem remains. Fo
   <h4>Now you are familiar with some layers and also understand those layers a little. Now i will walk you through on what really happens when you enter a website, short explained.</h4>
 
   <ul>
-    <li> First, you open your browser and type "https://youtube.com". This happens at the application Layer (layer 7), where the browser uses protocols like https to send requests and receive files from the server.
+    <li> First, you open your browser and type "https://youtube.comm". This happens at the application Layer (layer 7), where the browser uses protocols like https to send requests and receive files from the server.
   
   </li>
 
