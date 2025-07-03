@@ -47,7 +47,7 @@
   </h4>
 
   ![This is the switch picture](images/switch.png)
-  ![This is the hub picture](images/realswitch.png)
+  <img src="images/realswitch.png" width="200" />
 
   <h1 align="center">Network layers (1-2)</h1>
 
