@@ -221,6 +221,8 @@ After that the computers has been connected with a Switch, a problem remains. Fo
     <li>Firstly, you open your browser and type "https://youtube.comm", this uses the 7th layer. From the browser, to the https protocol.
     </li>
 
+  <br>
+
   <li>Secondly, when you visit a website, the presentation layer requests files like .html, .css, and .js from the server. These files arrive over the network, often encrypted or compressed. The presentation Layer is responsible for decrypting, decompressing, and translating this data into a format the browser can understand. After that, the browser processes the html, css, and javascript to render the website and display the graphical interface (GUI) you see on your screen.
   </li>
 
@@ -229,20 +231,32 @@ After that the computers has been connected with a Switch, a problem remains. Fo
   <li>Thirdly, you make the 3 way handshake which establishes a connection between you and the website, which falls into the 5th layer which is the session layer. Here is uses protocols such as http and https to talk with the website and see if its online.
   </li>
 
+  <br>
+
   <li>Fourthly, there has to be a way for all this information to be transported. That is exactly what the 4th layer (transport) is about. It chooses a protocol to transport the message (request to visit the website). Typcially TCP or UDP.
   </li>
+
+  <br>
 
   <li>Fifthly, now that the message is ready to be sent, it will use ip addresses from your device, send it over to the router and the router will send the message forward over the internet.
   </li>
 
+  <br>
+
   <li>Sixthly, Layeer 2 takes the packets from layer 3 and puts them into frames. It uses mac addresses to make sure the data gets to the right device on the local network, like your router. It also checks for errors in the data to make sure nothing got corrupted. Examples of layer 2 protocols are Ethernet and Wi-Fi.
   </li>
+
+  <br>
 
   <li>Lastly, Layer 1 which is the lowest layer,  is responsible for sending the raw bits as signals over cables or wirelessly. It decides how the signals are sent physically, like electrical signals through cables or radio waves for Wi-Fi. Your network card and cable or Wi-Fi antenna handle this part.
   </li>
 
+  <br>
+
   <li>Note that this type of cool thing where the message goes down the layers and is being greeted with new and different layers is called encapsulation. The message is being attached with new protocols, layers and so on.
   </li>
+
+  <br>
 
   <h3>Server's side (youtube)</h3>
 
