@@ -182,7 +182,7 @@ After that the computers has been connected with a Switch, a problem remains. Fo
   <h2>------> Layer 6 <------</h2>
 
   
-  <h4>This layer is called "presentation". This is a layer that gives you the gui (graphical user interface) and the things you see when entering a website. It is responisble for the data format and file types </h4>
+  <h4>The presentation layer handles data formatting, encryption, and compression so the data can be properly understood by the browser. The browser which is the application layer, processes this data to display the website’s graphical interface (GUI).</h4>
 
 <ul>
    <ls>
@@ -213,13 +213,39 @@ After that the computers has been connected with a Switch, a problem remains. Fo
 
   <h2 align="center">Behind the scenes when entering youtube (or any website)</h2>
 
+  <h3>Client's side</h3>
+
   <h4>Now you are familiar with some layers and also understand those layers a little. Now i will walk you through on what really happens when you enter a website, short explained.</h4>
 
   <ul>
-    <li>hello</li>
-    <li>hello</li>
-    <ls>hello</ls>
-    <ls>hello</ls>
+    <li>Firstly, you open your browser and type "https://youtube.com", this uses the 7th layer. From the browser, to the https protocol.
+    </li>
+
+  <li>Secondly, when you visit a website, the presentation layer requests files like .html, .css, and .js from the server. These files arrive over the network, often encrypted or compressed. The presentation Layer is responsible for decrypting, decompressing, and translating this data into a format the browser can understand. After that, the browser processes the html, css, and javascript to render the website and display the graphical interface (GUI) you see on your screen.
+  </li>
+
+  <li>Thirdly, you make the 3 way handshake which establishes a connection between you and the website, which falls into the 5th layer which is the session layer. Here is uses protocols such as http and https to talk with the website and see if its online.
+  </li>
+
+  <li>Fourthly, there has to be a way for all this information to be transported. That is exactly what the 4th layer (transport) is about. It chooses a protocol to transport the message (request to visit the website). Typcially TCP or UDP.
+  </li>
+
+  <li>Fifthly, now that the message is ready to be sent, it will use ip addresses from your device, send it over to the router and the router will send the message forward over the internet.
+  </li>
+
+  <li>Sixthly, Layeer 2 takes the packets from layer 3 and puts them into frames. It uses mac addresses to make sure the data gets to the right device on the local network, like your router. It also checks for errors in the data to make sure nothing got corrupted. Examples of layer 2 protocols are Ethernet and Wi-Fi.
+  </li>
+
+  <li>Lastly, Layer 1 which is the lowest layer,  is responsible for sending the raw bits as signals over cables or wirelessly. It decides how the signals are sent physically, like electrical signals through cables or radio waves for Wi-Fi. Your network card and cable or Wi-Fi antenna handle this part.
+  </li>
+
+  <li>Note that this type of cool thing where the message goes down the layers and is being greeted with new and different layers is called encapsulation. The message is being attached with new protocols, layers and so on.
+  </li>
+
+  <h3>Server's side (youtube)</h3>
+
+  <h4>When your message arrives to the server, it will be uncapsulation, meaning, your messsage is being opened and read. First it begins with opening the first layer (layer2) and then layer 3 and so on. When youtube confirms the request, you will be granted access to the website. </h4>
+    
   </ul>
   
 </div>
