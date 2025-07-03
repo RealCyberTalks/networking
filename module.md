@@ -218,11 +218,13 @@ After that the computers has been connected with a Switch, a problem remains. Fo
   <h4>Now you are familiar with some layers and also understand those layers a little. Now i will walk you through on what really happens when you enter a website, short explained.</h4>
 
   <ul>
-    <li>Firstly, you open your browser and type "https://youtube.com", this uses the 7th layer. From the browser, to the https protocol.
+    <li>Firstly, you open your browser and type "https://youtube.comm", this uses the 7th layer. From the browser, to the https protocol.
     </li>
 
   <li>Secondly, when you visit a website, the presentation layer requests files like .html, .css, and .js from the server. These files arrive over the network, often encrypted or compressed. The presentation Layer is responsible for decrypting, decompressing, and translating this data into a format the browser can understand. After that, the browser processes the html, css, and javascript to render the website and display the graphical interface (GUI) you see on your screen.
   </li>
+
+  <br>
 
   <li>Thirdly, you make the 3 way handshake which establishes a connection between you and the website, which falls into the 5th layer which is the session layer. Here is uses protocols such as http and https to talk with the website and see if its online.
   </li>
