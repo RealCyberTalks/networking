@@ -44,7 +44,7 @@
   </h4>
 
   <h4>
-  But one problem with the Hub is that, whenever a ping request or message arrives to it, the message will duplicate itself to     other devices in that network, meaning, the Hub's only job is to duplicate traffic to all devices. To solve this, they made       Switches. Switches job is to hand the message over to the right destination without any trouble. This is how a small network      with a switch looks like
+  But one problem with the Hub is that, whenever a ping request or message arrives to it, the message will duplicate itself to other devices in that network, meaning, the Hub's only job is to simply repeats the electrical signal to all connected devices. To solve this, they made Switches. Switch's job is to forward frames to a specific device associated with the destination mac address. This is how a small network with a switch looks like
   </h4>
 
   ![This is the switch picture](images/switch.png)
@@ -53,23 +53,23 @@
   <h1 align="center">Network layers (1-2)</h1>
 
   <h5>Layer 1: Hardware/Physical things, like cables </h5>
-  <h5>Layer 2: Mac Address etc</h5>
+  <h5>Layer 2: Mac Address, etc</h5>
 
   <ul>
    <ls>
   <li>Hardware: This is the physical things like the metal and components inside of your computer</li>
-  <li>Mac address: A code burnt in on your device. Every device has a mac address. This is like an ip address, or home address. This code almost should never change, because it is like an identifier for the device</li>
+  <li>Mac address: Fixed code on a device. Every device has a mac address. This is like an ip address, or home address. This code will almost never change,because it is like an identifier for the device. You could change the mac address thorugh a software </li>
   </ls>
   </ul>
   
   </h4>
-After that the computers has been connected with a Switch, a problem remains. For instance, pc0 doesn't know the mac address of pc1, which is neccessary for the communication, since Switches only understands layer 2, or in other words, switches can only transfer a message with mac addresses attached to the message. This is where ARP (address resolution protocol) messages comes into play. The ARP message is a message that a device sends to all devices in the network in order to find out what their mac address is. Lets make a scenario. "Pc0 wants to communicate with pc1": 
+After that the computers has been connected with a Switch, a problem remains. For instance, pc0 doesn't know the mac address of pc1, which is neccessary for the communication, since Switches only operate at layer 2, or in other words, switches can only transfer a message with mac addresses attached to the message. This is where ARP (address resolution protocol) messages comes into play. The ARP message is a message that a device sends to devices in the network in order to find out what their mac address is. Lets make a scenario. "Pc0 wants to communicate with pc1": 
   </h4>
 
   ![This is the switch picture](images/firstscene.png)
 
   <h3>Pc0 pings pc1 with this command "ping 192.168.1.2"</h3>
-  <h4>🟩 Green message: The ARP message, this message contains the ip address of the destination/receiver, and finds out the mac           address of it</h4>
+  <h4>🟩 Green message: The ARP message, this message contains the ip address of the destination/receiver, and finds out the mac address of it</h4>
   <h4>⬛ Black message: Actual ping request, this message contains the ip address of the sender and destination. But not the destination's mac address, that's the ARP's job
   </h4>
 
@@ -126,7 +126,7 @@ After that the computers has been connected with a Switch, a problem remains. Fo
 
   <li><strong>Ip address:</strong>
 
-  Think of it as a home address but for devices. You use ip addresses to send messages, receive messages, yet you can move to a different house, which is equivalent to a device switching networks and getting a new ip address, for example, when    connecting to a restaurant free network.
+  Think of it as a home address but for devices. You use ip addresses to send messages, receive messages, yet you can move to a different house, which is equivalent to a device switching networks and getting a new ip address, for example, when connecting to a restaurant free network.
   </li>
   
   <ul>
@@ -154,18 +154,9 @@ After that the computers has been connected with a Switch, a problem remains. Fo
    <ls>
       <li><strong>Transport protocols:</strong>
 
-  <strong>When your router sends a message through the internet, to for example enter a website, it typically uses the TCP (transmission control protocol) or UDP (User Datagram Protocol). For now just know that TCP is more reliable, while UDP is faster.</strong> 
-  </li>
-   </ls>
-  </ul>
+  <strong>When your router sends a message through the internet, to for example enter a website, it typically uses the TCP (transmission control protocol) or UDP (User Datagram Protocol). For now just know that TCP is more reliable, while UDP is faster. Additonally, you would use the so called "3 way handshake".</strong>
 
-  <h2>-----> Layer 5 <-----</h2>
-
-  <h4>The session layer is all about keeping the connection between you and the website you are trying to interact with. It can use extra protocols such as l2tp (layer 2 tone protocol) or rtcp (remote transport control protocol) which is used for setting up phone calls. This conenction is called the "3 way handshake"</h4>
-
-<ul>
-   <ls>
-      <li><strong>3 way handshake:</strong>
+<li><strong>3 way handshake:</strong>
 
   <br>
 
@@ -178,7 +169,17 @@ After that the computers has been connected with a Switch, a problem remains. Fo
 </a>
   </strong> 
   </li>
+  
+  </li>
    </ls>
+  </ul>
+
+  <h2>-----> Layer 5 <-----</h2>
+
+  <h4>The session layer is all about keeping the connection between you and the website you are trying to interact with.
+</h4>
+
+<ul>
   </ul>
 
   <h2>------> Layer 6 <------</h2>
@@ -228,37 +229,38 @@ After that the computers has been connected with a Switch, a problem remains. Fo
   <h4>Now you are familiar with some layers and also understand those layers a little. Now i will walk you through on what really happens when you enter a website, short explained.</h4>
 
   <ul>
-    <li>Firstly, you open your browser and type "https://youtube.comm", this uses the 7th layer. From the browser, to the https protocol.
-    </li>
-
-  <br>
-
-  <li>Secondly, when you visit a website, the presentation layer requests files like .html, .css, and .js from the server. These files arrive over the network, often encrypted or compressed. The presentation Layer is responsible for decrypting, decompressing, and translating this data into a format the browser can understand. After that, the browser processes the html, css, and javascript to render the website and display the graphical interface (GUI) you see on your screen.
+    <li> First, you open your browser and type "https://youtube.com". This happens at the application Layer (layer 7), where the browser uses protocols like https to send requests and receive files from the server.
+  
   </li>
 
   <br>
 
-  <li>Thirdly, you make the 3 way handshake which establishes a connection between you and the website, which falls into the 5th layer which is the session layer. Here is uses protocols such as http and https to talk with the website and see if its online.
+  <li>Secondly, when the files like .html, .css, and .js arrive, the presentation Layer (layer 6) takes care of decrypting and decompressing the data so it can be understood by the browser.
   </li>
 
   <br>
 
-  <li>Fourthly, there has to be a way for all this information to be transported. That is exactly what the 4th layer (transport) is about. It chooses a protocol to transport the message (request to visit the website). Typcially TCP or UDP.
+  <li>Thirdly, the session Layer (layer 5) helps manage the connection between your computer and the server by keeping the session open while you browse and making sure it can close properly when you’re done.
   </li>
 
   <br>
 
-  <li>Fifthly, now that the message is ready to be sent, it will use ip addresses from your device, send it over to the router and the router will send the message forward over the internet.
+  <li>Fourthly, there has to be a way for all this information to be transported. That is exactly what the 4th layer (transport) is about. It chooses a protocol to transport the message (request to visit the website). Typcially TCP or UDP. Additionally, you make the 3 way handshake which establishes a connection between you and the website.
   </li>
 
   <br>
 
-  <li>Sixthly, Layeer 2 takes the packets from layer 3 and puts them into frames. It uses mac addresses to make sure the data gets to the right device on the local network, like your router. It also checks for errors in the data to make sure nothing got corrupted. Examples of layer 2 protocols are Ethernet and Wi-Fi.
+  <li>Fifthly, now that the message is ready to be sent, it will use the ip address from your device, send it over to the router and the router will send the message forward over the internet. Aka layer 3.
   </li>
 
   <br>
 
-  <li>Lastly, Layer 1 which is the lowest layer,  is responsible for sending the raw bits as signals over cables or wirelessly. It decides how the signals are sent physically, like electrical signals through cables or radio waves for Wi-Fi. Your network card and cable or Wi-Fi antenna handle this part.
+  <li>Sixthly, Layer 2 takes the packets from layer 3 and puts them into frames. It uses mac addresses to make sure the data gets to the right device on the local network, like your router. It also checks for errors in the data to make sure nothing got corrupted. Examples of layer 2 protocols are Ethernet and Wi-Fi.
+  </li>
+
+  <br>
+
+  <li>Lastly, Layer 1 which is the lowest layer, is responsible for sending the raw bits as signals over cables or wirelessly. It decides how the signals are sent physically, like electrical signals through cables or radio waves for Wi-Fi. Your network card and cable or Wi-Fi antenna handle this part.
   </li>
 
   <br>
@@ -270,7 +272,7 @@ After that the computers has been connected with a Switch, a problem remains. Fo
 
   <h3>Server's side (youtube)</h3>
 
-  <h4>When your message arrives to the server, it will be uncapsulation, meaning, your messsage is being opened and read. First it begins with opening the first layer (layer2) and then layer 3 and so on. When youtube confirms the request, you will be granted access to the website. </h4>
+  <h4>When your message arrives to the server, it will be uncapsulating, meaning, your messsage is being opened and read. First it begins with opening the first layer (layer2) and then layer 3 and so on. When youtube confirms the request, you will be granted access to the website. </h4>
     
   </ul>
   
