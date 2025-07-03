@@ -211,6 +211,16 @@ After that the computers has been connected with a Switch, a problem remains. Fo
   </ls>
   </ul>
 
+  <h2 align="center">Behind the scenes when entering youtube (or any website)</h2>
+
+  <h4>Now you are familiar with some layers and also understand those layers a little. Now i will walk you through on what really happens when you enter a website, short explained.</h4>
+
+  <ul>
+    <li>hello</li>
+    <li>hello</li>
+    <ls>hello</ls>
+    <ls>hello</ls>
+  </ul>
   
 </div>
   
