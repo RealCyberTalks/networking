@@ -38,7 +38,7 @@
 
   <h4>In order for computers to talk to each other, they need a cable attached to their ends. But how would multiple computers talk to each other? Well now we talking Hubs. They allow multiple computers to talk and communicate, like this:
 
-![This is the hub picture](hub.png)
+![This is the hub picture](images/hub.png)
   
   </h4>
 
@@ -46,7 +46,7 @@
   But one problem with the Hub is that, whenever a ping request or message arrives to it, the message will duplicate itself to     other devices in that network, meaning, the Hub's only job is to duplicate traffic to all devices. To solve this, they made       Switches. Switches job is to hand the message over to the right destination without any trouble. This is how a small network      with a switch looks like
   </h4>
 
-  ![This is the switch picture](switch.png)
+  ![This is the switch picture](images/switch.png)
 
   <h1 align="center">Network layers (1-2)</h1>
 
