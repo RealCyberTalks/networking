@@ -44,7 +44,7 @@
   </h4>
 
   <h4>
-  But one problem with the Hub is that, whenever a ping request or message arrives to it, the message will duplicate itself to other devices in that network, meaning, the Hub's only job is to simply repeats the electrical signal to all connected devices. To solve this, they made Switches. Switch's job is to forward frames to a specific device associated with the destination mac address. This is how a small network with a switch looks like
+  But one problem with the Hub is that, whenever a ping request or message arrives to it, the message will duplicate itself to other devices in that network, meaning, the Hub's only job is to simply repeat the electrical signal to all connected devices. To solve this, they made Switches. Switch's job is to forward frames to a specific device associated with the destination mac address. This is how a small network with a switch looks like
   </h4>
 
   ![This is the switch picture](images/switch.png)
