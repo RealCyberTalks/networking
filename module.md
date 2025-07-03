@@ -117,7 +117,7 @@ After that the computers has been connected with a Switch, a problem remains. Fo
 
   <li><strong>Router:</strong>
 
-  Routers can forward a message using ip addresses. When a message reaches your local router from the inside or outside, it will do its things according to the configuration.
+  Routers can forward a message using ip addresses. When a message reaches your local router from the inside (LAN) or outside (WLAN), it will do its things according to the configuration.
 
   ![This is the process picture](routerr.png)
     
