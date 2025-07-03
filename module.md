@@ -67,11 +67,17 @@ After that the computers has been connected with a Switch, a problem remains. Fo
 
   ![This is the switch picture](images/arpsent.png)
 
-  <h5>Ethernet: The cable used to connect the computer and the switch</h5>
-  <h5>00D0.9745.1420: This the source mac address, aka the sender's mac address which is pc0</h5>
-  <h5>FFFF.FFFF.FFFF: This is the blank mac address holder for the destination's mac address, which is pc1's mac address</h5>
-  <h5>Src. ip: The ip address of the sender/pc0</h5>
-  <h5>Dest ip: Ip address of the destination, aka pc1's ip address</h5>
+  </ul>
+  
+<ul>
+   <ls>
+  <li>Ethernet: The cable used to connect the computer and the switch</li>
+  <li>00D0.9745.1420: This the source mac address, aka the sender's mac address which is pc0</li>
+  <li>FFFF.FFFF.FFFF: This is the blank mac address holder for the destination's mac address, which is pc1's mac address</li>
+  <li>Src. ip: The ip address of the sender/pc0</li>
+  <li>Dest ip: Ip address of the destination, aka pc1's ip address</li>
+  </ls>
+  </ul>
 
   ![This is the process picture](images/secondscene.png)
 
