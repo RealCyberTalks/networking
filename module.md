@@ -155,9 +155,10 @@ After that the computers has been connected with a Switch, a problem remains. Fo
   
   In order for you to visit a website, like youtube.com, you need to first communicate. So you open your browser and type the website. Secondly, behind the scenes, you send a message called "syn" (synchronize), which is a message that sees if the a website is up. When the message reaches for example youtube, then it will respond with a "syn ack" (synchronize-acknowledge) message saying "hello client, im online". Lastly when youtube sends the message back to you, you will respond with an "ack" (acknowledge) message saying "okay we are good to go". Now you are in the website. For more on this, check out this youtube video: 
   
-  <a href="https://youtube.com/shorts/N-j-FZ5c9n0?si=h40a15OyBupW0PjN" target="_blank">
-  3-Way Handshake Explained 
-  </a> 
+  <a href="https://youtube.com/shorts/N-j-FZ5c9n0?si=h40a15OyBupW0PjN" 
+   onclick="window.open(this.href, 'popup', 'width=600,height=400'); return false;">
+  3-Way Handshake Explained
+</a>
   </strong> 
   </li>
    </ls>
