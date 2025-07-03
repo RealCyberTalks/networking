@@ -52,8 +52,19 @@
 
   <h5>Layer 1: Hardware/Physical things, like cables </h5>
   <h5>Layer 2: Mac Address etc</h5>
+
+  <ul>
+   <ls>
+  <li>Hardware: This is the physical things like the metal and components inside of your computer</li>
+  <li>Mac address: A code burnt in on your device. Every device has a mac address. This is like an ip address, or home address. This code almost should never change, because it is like an identifier for the device</li>
+  <li>FFFF.FFFF.FFFF: This is the blank mac address holder for the destination's mac address, which is pc1's mac address</li>
+  <li>Src. ip: The ip address of the sender/pc0</li>
+  <li>Dest ip: Ip address of the destination, aka pc1's ip address</li>
+  </ls>
+  </ul>
+  
   </h4>
-After that the computers has been connected with a Switch, a problem remains. For instance, pc0 doesn't know the mac address of pc1, which is neccessary for the communication, since Switches only understands layer 2, or in other words, switches can only transfer a message with mac addresses attached to the message.This is where ARP (address resolution protocol) messages comes into play. The ARP message is a message that a device sends to all devices in the network in order to find out what their mac address is. Lets make a scenario. "Pc0 wants to communicate with pc1": 
+After that the computers has been connected with a Switch, a problem remains. For instance, pc0 doesn't know the mac address of pc1, which is neccessary for the communication, since Switches only understands layer 2, or in other words, switches can only transfer a message with mac addresses attached to the message. This is where ARP (address resolution protocol) messages comes into play. The ARP message is a message that a device sends to all devices in the network in order to find out what their mac address is. Lets make a scenario. "Pc0 wants to communicate with pc1": 
   </h4>
 
   ![This is the switch picture](images/firstscene.png)
