@@ -202,6 +202,9 @@ After that the computers has been connected with a Switch, a problem remains. Fo
 <ul>
    <ls>
   <li>Browser: When you open your browser and type the website, in a way, you interact with the 7th layer. More of this under</li>
+
+  <br>
+     
   <li>Ports: A port is like a tunnel that allows connections. When you start your computer, by deafult you will create different ports so that your computer works properly. Ports allow connections, for example, when you visit youtube, there has to be a way for the flow of information to pass by, which is ports. They allow connections, and informations to pass in, and out of it. Ports also have the so called "port number" which is like an ip address but for ports. Its a location for the port. For instance, if you want to connect to a port, you would specify the port number. 
   </li>
 
