@@ -56,7 +56,7 @@
 After that the computers has been connected with a Switch, a problem remains. For instance, pc0 doesn't know the mac address of pc1, which is neccessary for the communication, since Switches only understands layer 2, or in other words, switches can only transfer a message with mac addresses attached to the message.This is where ARP (address resolution protocol) messages comes into play. The ARP message is a message that a device sends to all devices in the network in order to find out what their mac address is. Lets make a scenario. "Pc0 wants to communicate with pc1": 
   </h4>
 
-  ![This is the switch picture](firstscene.png)
+  ![This is the switch picture](images/firstscene.png)
 
   <h3>Pc0 pings pc1 with this command "ping 192.168.1.2"</h3>
   <h4>🟩 Green message: The ARP message, this message contains the ip address of the destination/receiver, and finds out the mac           address of it</h4>
@@ -65,7 +65,7 @@ After that the computers has been connected with a Switch, a problem remains. Fo
 
   <h4>This is what the ARP message currently contains:</h4>
 
-  ![This is the switch picture](arpsent.png)
+  ![This is the switch picture](images/arpsent.png)
 
   <h5>Ethernet: The cable used to connect the computer and the switch</h5>
   <h5>00D0.9745.1420: This the source mac address, aka the sender's mac address which is pc0</h5>
@@ -73,28 +73,28 @@ After that the computers has been connected with a Switch, a problem remains. Fo
   <h5>Src. ip: The ip address of the sender/pc0</h5>
   <h5>Dest ip: Ip address of the destination, aka pc1's ip address</h5>
 
-  ![This is the process picture](secondscene.png)
+  ![This is the process picture](images/secondscene.png)
 
   <h4>
     Both ARP (🟩 ) and the ping request (⬛) has reached the Switch. The Switch knows that this is an ARP message, and therefore duplicates it to the other devices:
   
   </h4>
 
-![This is the process picture](thirdscene.png)
+![This is the process picture](images/thirdscene.png)
 
 <p></p>
 
-![This is the process picture](secondscene.png)
+![This is the process picture](images/secondscene.png)
   <h4>
     Since the ip address doesn't match for pc2, it will be destroyed. In the other hand, it matches the pc1's ip address, which       means the ARP request has been succesfully delivered. Now the last step is for pc1 do contact the original sender, pc0
   </h4>
 
-  ![This is the process picture](forthscene.png)
+  ![This is the process picture](images/forthscene.png)
 
   <h4>
     Now pc0 and the switch have learned where pc1 lives through its mac address. From now on, the ARP message is useless because pc0 and pc1 are friends, both of them know where they each live, which means they are now free to communicate with each other without any issues. All of this is happening within seconds, but we just slowed down the progress so it becomes easier. This is how it actaully looks like behind the scenes:
 
-  ![This is the process picture](ping.png)
+  ![This is the process picture](images/ping.png)
     
   </h4>
 
@@ -102,7 +102,7 @@ After that the computers has been connected with a Switch, a problem remains. Fo
 
   <h4 align="center">There are two main network structures. They are called the OSI model and TCP/IP model. The OSI model has 7 layers while TCP/IP combines the 5th, 6th, and 7th layer into one layer, which is equal to only 5 layers.</h4>
 
-  ![This is the process picture](ositcp.png)
+  ![This is the process picture](images/ositcp.png)
 
   <h2>---> Layer3 <---</h2>
 
@@ -119,7 +119,7 @@ After that the computers has been connected with a Switch, a problem remains. Fo
 
   Routers can forward a message using ip addresses. When a message reaches your local router from the inside (LAN: local area network) or outside (WAN: wide area network), it will do its things according to the configuration.
 
-  ![This is the process picture](routerr.png)
+  ![This is the process picture](images/routerr.png)
     
   </li>
 
