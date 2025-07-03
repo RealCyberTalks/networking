@@ -57,9 +57,6 @@
    <ls>
   <li>Hardware: This is the physical things like the metal and components inside of your computer</li>
   <li>Mac address: A code burnt in on your device. Every device has a mac address. This is like an ip address, or home address. This code almost should never change, because it is like an identifier for the device</li>
-  <li>FFFF.FFFF.FFFF: This is the blank mac address holder for the destination's mac address, which is pc1's mac address</li>
-  <li>Src. ip: The ip address of the sender/pc0</li>
-  <li>Dest ip: Ip address of the destination, aka pc1's ip address</li>
   </ls>
   </ul>
   
