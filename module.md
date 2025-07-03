@@ -110,14 +110,14 @@ After that the computers has been connected with a Switch, a problem remains. Fo
 
   <li><strong>Ip address:</strong>
 
-  Think of it as a home address but for devices. You use ip addresses to send messages, receive messages, yet you can       move to a different house, which is equivalent to a device switching networks and getting a new ip address, for example, when    connecting to a restaurant free network.
+  Think of it as a home address but for devices. You use ip addresses to send messages, receive messages, yet you can move to a different house, which is equivalent to a device switching networks and getting a new ip address, for example, when    connecting to a restaurant free network.
   </li>
   
   <ul>
 
   <li><strong>Router:</strong>
 
-  Routers can forward a message using ip addresses. When a message reaches your local router from the inside (LAN) or outside (WLAN), it will do its things according to the configuration.
+  Routers can forward a message using ip addresses. When a message reaches your local router from the inside (LAN: local area network) or outside (WAN: wide area network), it will do its things according to the configuration.
 
   ![This is the process picture](routerr.png)
     
@@ -171,6 +171,22 @@ After that the computers has been connected with a Switch, a problem remains. Fo
   <li>.css: Its a programming language called "CSS". It is used to fade, shade, and make everthing seem much cleaner and better. </li>
    </ls>
   </ul>
+
+  <h2>------> Layer 6 <------</h2>
+
+  <h4>This is the last layer, and its called</h4>
+
+<ul>
+   <ls>
+      <li><strong>Data format & file type:</strong>
+
+  <strong>When you enter a website, you are mostly greeted with an .html file. This is a file that renders the website. From the background color, to all the text, font and so on. Most common data format/file types are .html, .js and .css.</strong> 
+  </li>
+  <li>.js: Java script. Used when you want to script a button or animations</li>
+  <li>.css: Its a programming language called "CSS". It is used to fade, shade, and make everthing seem much cleaner and better. </li>
+   </ls>
+  </ul>
+
   
 </div>
   
