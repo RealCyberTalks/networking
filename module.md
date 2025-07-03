@@ -24,7 +24,7 @@
     <li>2. Hubs and Switches</li>
     <li>3. Network layers (1-2) & ARP</li>
     <li>4. Network layers (3-7) & OSI /TCP/IP model</li>
-    <li>5. What happens when you visit Youtube, explained with the TCP/IP model</li>
+    <li>5. What happens when you enter Youtube? (or any website)</li>
   </ul>
   </strong>
 
@@ -219,7 +219,7 @@ After that the computers has been connected with a Switch, a problem remains. Fo
   </ls>
   </ul>
 
-  <h2 align="center">Behind the scenes when entering youtube (or any website)</h2>
+  <h2 align="center">What happens when you enter Youtube? (or any website)</h2>
 
   <h3>Client's side</h3>
 
